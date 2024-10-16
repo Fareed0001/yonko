@@ -1,0 +1,446 @@
+{
+  "onlinePetSupplies": [
+    {
+      "id": 1,
+      "name": "PetMart Online",
+      "category": "Pet Supplies",
+      "routeCategory": "pet",
+      "deliveryTime": "30-45 minutes",
+      "rating": 4.5,
+      "image": "/pet.jpg",
+      "parentObj": {
+        "routeCategory": "pet",
+        "id": 1
+      },
+      "menu": [
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Dog Food",
+          "description": "Premium quality dog food",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 29.99,
+          "discountPrice": 28.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 1
+          }
+        },
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Cat Litter",
+          "description": "Odor control cat litter",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 14.99,
+          "discountPrice": 12.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 1
+          }
+        },
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Fish Tank",
+          "description": "Starter kit for fish enthusiasts",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 79.99,
+          "discountPrice": 79.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "PetCo Express",
+      "category": "Pet Supplies",
+      "routeCategory": "pet",
+
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.4,
+      "image": "/pet.jpg",
+      "parentObj": {
+        "routeCategory": "pet",
+        "id": 2
+      },
+      "menu": [
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Bird Cage",
+          "description": "Spacious cage for birds",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 39.99,
+          "discountPrice": 37.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 2
+          }
+        },
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Hamster Wheel",
+          "description": "Exercise wheel for hamsters",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 9.99,
+          "discountPrice": 9.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 2
+          }
+        },
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Turtle Food",
+          "description": "Nutritious food for turtles",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 19.99,
+          "discountPrice": 19.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "PetSmart Express",
+      "category": "Pet Supplies",
+      "routeCategory": "pet",
+
+      "deliveryTime": "45-60 minutes",
+      "rating": 4.7,
+      "image": "/pet.jpg",
+      "parentObj": {
+        "routeCategory": "pet",
+        "id": 3
+      },
+      "menu": [
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Cat Tree",
+          "description": "Interactive tree for cats",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 59.99,
+          "discountPrice": 57.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 3
+          }
+        },
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Dog Leash",
+          "description": "Durable leash for dogs",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 24.99,
+          "discountPrice": 24.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 3
+          }
+        },
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Rabbit Hutch",
+          "description": "Cozy hutch for rabbits",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 89.99,
+          "discountPrice": 80.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 3
+          }
+        }
+      ]
+    }
+  ],
+  "localPetSupplies": [
+    {
+      "id": 4,
+      "name": "Local Pet Shop 1",
+      "category": "Pet Supplies",
+      "routeCategory": "pet",
+
+      "location": "123 Main St",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.8,
+      "image": "/pet.jpg",
+      "parentObj": {
+        "routeCategory": "pet",
+        "id": 4
+      },
+      "menu": [
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Dog Bed",
+          "description": "Comfortable bed for dogs",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 49.99,
+          "discountPrice": 46.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 4
+          }
+        },
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Fish Food",
+          "description": "Nutritious food for fish",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 9.99,
+          "discountPrice": 9.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 4
+          }
+        },
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Guinea Pig Cage",
+          "description": "Spacious cage for guinea pigs",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 69.99,
+          "discountPrice": 69.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Local Pet Shop 2",
+      "category": "Pet Supplies",
+      "routeCategory": "pet",
+
+      "location": "456 Oak St",
+      "deliveryTime": "15-25 minutes",
+      "rating": 4.6,
+      "image": "/pet.jpg",
+      "parentObj": {
+        "routeCategory": "pet",
+        "id": 5
+      },
+      "menu": [
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Cat Scratching Post",
+          "description": "Durable scratching post for cats",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 34.99,
+          "discountPrice": 34.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 5
+          }
+        },
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Hamster Cage",
+          "description": "Comfy cage for hamsters",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 29.99,
+          "discountPrice": 26.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 5
+          }
+        },
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Bird Feed",
+          "description": "Healthy feed for birds",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 12.99,
+          "discountPrice": 12.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Local Pet Shop 3",
+      "category": "Pet Supplies",
+      "routeCategory": "pet",
+
+      "location": "789 Elm St",
+      "deliveryTime": "25-35 minutes",
+      "rating": 4.9,
+      "image": "/pet.jpg",
+      "parentObj": {
+        "routeCategory": "pet",
+        "id": 6
+      },
+      "menu": [
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Dog Collar",
+          "description": "Stylish collar for dogs",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 19.99,
+          "discountPrice": 18.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 6
+          }
+        },
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Rabbit Food",
+          "description": "Nutritious food for rabbits",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 14.99,
+          "discountPrice": 14.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 6
+          }
+        },
+        {
+          "image": "/pet.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Snake Terrarium",
+          "description": "Secure terrarium for snakes",
+          "fullDescription": "Our premium dog food is made with high-quality ingredients that are specifically formulated to meet the nutritional needs of dogs. It's packed with essential vitamins, minerals, and nutrients that support healthy digestion, strong bones, and a shiny coat. The recipe is free from artificial preservatives, colors, and flavors, and it's made in small batches to ensure freshness. Whether you have a puppy, adult dog, or senior dog, our premium dog food is an excellent choice for keeping your furry friend healthy and happy.",
+
+          "price": 99.99,
+          "discountPrice": 99.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pet",
+            "id": 6
+          }
+        }
+      ]
+    }
+  ]
+}

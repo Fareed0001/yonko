@@ -1,0 +1,448 @@
+{
+  "onlineClothingItems": [
+    {
+      "id": 1,
+      "name": "FashionHub Online",
+      "category": "Men",
+      "routeCategory": "clothing",
+      "deliveryTime": "30-45 minutes",
+      "rating": 4.5,
+      "image": "/clothing.jpg",
+
+      "parentObj": {
+        "routeCategory": "clothing",
+        "id": 1
+      },
+      "menu": [
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "T-Shirt",
+          "description": "Casual cotton T-shirt",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 19.99,
+          "discountPrice": 19.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 1
+          }
+        },
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Jeans",
+          "description": "Slim-fit denim jeans",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 39.99,
+          "discountPrice": 35.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 1
+          }
+        },
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Sneakers",
+          "description": "Canvas sneakers",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 29.99,
+          "discountPrice": 26.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "StylePoint Express",
+      "category": "Kids",
+      "routeCategory": "clothing",
+
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.4,
+      "image": "/clothing.jpg",
+      "parentObj": {
+        "routeCategory": "clothing",
+        "id": 2
+      },
+      "menu": [
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Dress",
+          "description": "Floral print summer dress",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 49.99,
+          "discountPrice": 45.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 2
+          }
+        },
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Blouse",
+          "description": "Silk blouse with lace trim",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 29.99,
+          "discountPrice": 29.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 2
+          }
+        },
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Sandals",
+          "description": "Leather sandals",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 34.99,
+          "discountPrice": 32.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "TrendyWear Online",
+      "category": "Women",
+      "routeCategory": "clothing",
+
+      "deliveryTime": "25-35 minutes",
+      "rating": 4.6,
+      "image": "/clothing.jpg",
+
+      "parentObj": {
+        "routeCategory": "clothing",
+        "id": 3
+      },
+      "menu": [
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Hoodie",
+          "description": "Graphic print hoodie",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 29.99,
+          "discountPrice": 35.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 3
+          }
+        },
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Joggers",
+          "description": "Cotton jogger pants",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 24.99,
+          "discountPrice": 24.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 3
+          }
+        },
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Beanie",
+          "description": "Knit beanie hat",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 14.99,
+          "discountPrice": 14.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 3
+          }
+        }
+      ]
+    }
+  ],
+  "localClothingItems": [
+    {
+      "id": 4,
+      "name": "Local Boutique 1",
+      "category": "Unisex",
+      "routeCategory": "clothing",
+
+      "location": "123 Main St",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.8,
+      "image": "/clothing.jpg",
+
+      "parentObj": {
+        "routeCategory": "clothing",
+        "id": 4
+      },
+      "menu": [
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Skirt",
+          "description": "A-line midi skirt",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+          "price": 29.99,
+          "discountPrice": 29.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 4
+          }
+        },
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Sweater",
+          "description": "Knit pullover sweater",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 39.99,
+          "discountPrice": 35.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 4
+          }
+        },
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Boots",
+          "description": "Leather ankle boots",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 59.99,
+          "discountPrice": 54.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Local Boutique 2",
+      "category": "Jewerly",
+      "routeCategory": "clothing",
+
+      "location": "456 Oak St",
+      "deliveryTime": "15-25 minutes",
+      "rating": 4.6,
+      "image": "/clothing.jpg",
+      "parentObj": {
+        "routeCategory": "clothing",
+        "id": 5
+      },
+      "menu": [
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Jacket",
+          "description": "Faux leather moto jacket",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 79.99,
+          "discountPrice": 70.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 5
+          }
+        },
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Scarf",
+          "description": "Cashmere blend scarf",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 24.99,
+          "discountPrice": 24.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 5
+          }
+        },
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Hat",
+          "description": "Wool fedora hat",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 29.99,
+          "discountPrice": 29.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "ChicStyles Boutique",
+      "category": "Clothing",
+      "routeCategory": "clothing",
+
+      "location": "789 Elm St",
+      "deliveryTime": "25-35 minutes",
+      "rating": 4.9,
+      "image": "/clothing.jpg",
+      "parentObj": {
+        "routeCategory": "clothing",
+        "id": 6
+      },
+      "menu": [
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Dress",
+          "description": "Lace cocktail dress",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 89.99,
+          "discountPrice": 85.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 6
+          }
+        },
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Blazer",
+          "description": "Tailored blazer jacket",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 69.99,
+          "discountPrice": 54.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 6
+          }
+        },
+        {
+          "image": "/clothing.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Heels",
+          "description": "Stiletto heels",
+          "fullDescription": "These classic denim jeans are made from high-quality, durable denim and feature a comfortable fit with a slight stretch. They have a regular waist and a classic five-pocket design. Pair them with your favorite t-shirt or blouse for a casual look, or dress them up with a blazer and heels for a night out. Available in sizes 26-34.",
+
+          "price": 49.99,
+          "discountPrice": 47.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "clothing",
+            "id": 6
+          }
+        }
+      ]
+    }
+  ]
+}

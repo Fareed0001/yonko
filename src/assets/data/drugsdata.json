@@ -1,0 +1,375 @@
+{
+  "onlinePharmacies": [
+    {
+      "id": 1,
+      "name": "MediCure",
+      "category": "Pharmacy",
+      "routeCategory": "pharmacy",
+
+      "deliveryTime": "30-45 minutes",
+      "rating": 4.5,
+      "image": "/health.jpg",
+      "parentObj": {
+        "routeCategory": "pharmacy",
+        "id": 1
+      },
+
+      "menu": [
+        {
+          "image": "/health.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Paracetamol",
+          "description": "For pain relief.",
+          "fullDescription": "Ibuprofen is a non-prescription pain reliever and fever reducer. It works by blocking the production of prostaglandins, chemicals in the body that cause pain and inflammation. Ibuprofen is commonly used to treat headaches, menstrual cramps, toothaches, and muscle aches. It can also be used to reduce fever and inflammation from conditions such as arthritis and the flu. Ibuprofen is available in various forms, including tablets, capsules, and liquid gels. It is important to follow the dosage instructions carefully and not exceed the recommended dose. If you have any questions or concerns about taking ibuprofen, please consult with your healthcare provider.",
+          "price": 12.99,
+          "discountPrice": 12.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pharmacy",
+            "id": 1
+          }
+        },
+        {
+          "image": "/health.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Amoxicillin",
+          "description": "Antibiotic.",
+          "fullDescription": "Ibuprofen is a non-prescription pain reliever and fever reducer. It works by blocking the production of prostaglandins, chemicals in the body that cause pain and inflammation. Ibuprofen is commonly used to treat headaches, menstrual cramps, toothaches, and muscle aches. It can also be used to reduce fever and inflammation from conditions such as arthritis and the flu. Ibuprofen is available in various forms, including tablets, capsules, and liquid gels. It is important to follow the dosage instructions carefully and not exceed the recommended dose. If you have any questions or concerns about taking ibuprofen, please consult with your healthcare provider.",
+
+          "price": 10.99,
+          "discountPrice": 10.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pharmacy",
+            "id": 1
+          }
+        },
+        {
+          "image": "/health.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Loratadine",
+          "description": "For allergies.",
+          "fullDescription": "Ibuprofen is a non-prescription pain reliever and fever reducer. It works by blocking the production of prostaglandins, chemicals in the body that cause pain and inflammation. Ibuprofen is commonly used to treat headaches, menstrual cramps, toothaches, and muscle aches. It can also be used to reduce fever and inflammation from conditions such as arthritis and the flu. Ibuprofen is available in various forms, including tablets, capsules, and liquid gels. It is important to follow the dosage instructions carefully and not exceed the recommended dose. If you have any questions or concerns about taking ibuprofen, please consult with your healthcare provider.",
+
+          "price": 11.99,
+          "discountPrice": 11.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pharmacy",
+            "id": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "HealthyCure",
+      "category": "Pharmacy",
+      "routeCategory": "pharmacy",
+
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.2,
+      "image": "/health.jpg",
+      "parentObj": {
+        "routeCategory": "pharmacy",
+        "id": 2
+      },
+      "menu": [
+        {
+          "image": "/health.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Vitamin C",
+          "description": "Boosts immunity.",
+          "fullDescription": "Ibuprofen is a non-prescription pain reliever and fever reducer. It works by blocking the production of prostaglandins, chemicals in the body that cause pain and inflammation. Ibuprofen is commonly used to treat headaches, menstrual cramps, toothaches, and muscle aches. It can also be used to reduce fever and inflammation from conditions such as arthritis and the flu. Ibuprofen is available in various forms, including tablets, capsules, and liquid gels. It is important to follow the dosage instructions carefully and not exceed the recommended dose. If you have any questions or concerns about taking ibuprofen, please consult with your healthcare provider.",
+
+          "price": 8.99,
+          "discountPrice": 8.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pharmacy",
+            "id": 2
+          }
+        },
+        {
+          "image": "/health.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Zinc Tablets",
+          "description": "For immune system support.",
+          "fullDescription": "Ibuprofen is a non-prescription pain reliever and fever reducer. It works by blocking the production of prostaglandins, chemicals in the body that cause pain and inflammation. Ibuprofen is commonly used to treat headaches, menstrual cramps, toothaches, and muscle aches. It can also be used to reduce fever and inflammation from conditions such as arthritis and the flu. Ibuprofen is available in various forms, including tablets, capsules, and liquid gels. It is important to follow the dosage instructions carefully and not exceed the recommended dose. If you have any questions or concerns about taking ibuprofen, please consult with your healthcare provider.",
+
+          "price": 9.99,
+          "discountPrice": 9.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pharmacy",
+            "id": 2
+          }
+        },
+        {
+          "image": "/health.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Omega-3 Capsules",
+          "description": "For heart health.",
+          "fullDescription": "Ibuprofen is a non-prescription pain reliever and fever reducer. It works by blocking the production of prostaglandins, chemicals in the body that cause pain and inflammation. Ibuprofen is commonly used to treat headaches, menstrual cramps, toothaches, and muscle aches. It can also be used to reduce fever and inflammation from conditions such as arthritis and the flu. Ibuprofen is available in various forms, including tablets, capsules, and liquid gels. It is important to follow the dosage instructions carefully and not exceed the recommended dose. If you have any questions or concerns about taking ibuprofen, please consult with your healthcare provider.",
+
+          "price": 7.99,
+          "discountPrice": 7.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pharmacy",
+            "id": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "QuickCure",
+      "category": "Pharmacy",
+      "routeCategory": "pharmacy",
+
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.2,
+      "image": "/health.jpg",
+      "parentObj": {
+        "routeCategory": "pharmacy",
+        "id": 3
+      },
+      "menu": [
+        {
+          "image": "/health.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Insulin",
+          "description": "For diabetes.",
+          "fullDescription": "Ibuprofen is a non-prescription pain reliever and fever reducer. It works by blocking the production of prostaglandins, chemicals in the body that cause pain and inflammation. Ibuprofen is commonly used to treat headaches, menstrual cramps, toothaches, and muscle aches. It can also be used to reduce fever and inflammation from conditions such as arthritis and the flu. Ibuprofen is available in various forms, including tablets, capsules, and liquid gels. It is important to follow the dosage instructions carefully and not exceed the recommended dose. If you have any questions or concerns about taking ibuprofen, please consult with your healthcare provider.",
+
+          "price": 8.99,
+          "discountPrice": 8.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pharmacy",
+            "id": 3
+          }
+        },
+        {
+          "image": "/health.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Metformin",
+          "description": "For type 2 diabetes.",
+          "fullDescription": "Ibuprofen is a non-prescription pain reliever and fever reducer. It works by blocking the production of prostaglandins, chemicals in the body that cause pain and inflammation. Ibuprofen is commonly used to treat headaches, menstrual cramps, toothaches, and muscle aches. It can also be used to reduce fever and inflammation from conditions such as arthritis and the flu. Ibuprofen is available in various forms, including tablets, capsules, and liquid gels. It is important to follow the dosage instructions carefully and not exceed the recommended dose. If you have any questions or concerns about taking ibuprofen, please consult with your healthcare provider.",
+
+          "price": 9.99,
+          "discountPrice": 9.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pharmacy",
+            "id": 3
+          }
+        },
+        {
+          "image": "/health.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Glucosamine",
+          "description": "For joint health.",
+          "fullDescription": "Ibuprofen is a non-prescription pain reliever and fever reducer. It works by blocking the production of prostaglandins, chemicals in the body that cause pain and inflammation. Ibuprofen is commonly used to treat headaches, menstrual cramps, toothaches, and muscle aches. It can also be used to reduce fever and inflammation from conditions such as arthritis and the flu. Ibuprofen is available in various forms, including tablets, capsules, and liquid gels. It is important to follow the dosage instructions carefully and not exceed the recommended dose. If you have any questions or concerns about taking ibuprofen, please consult with your healthcare provider.",
+
+          "price": 7.99,
+          "discountPrice": 7.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pharmacy",
+            "id": 3
+          }
+        }
+      ]
+    }
+  ],
+  "localPharmacies": [
+    {
+      "id": 4,
+      "name": "Corner Drug Store",
+      "category": "Pharmacy",
+      "routeCategory": "pharmacy",
+
+      "location": "123 Main St",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.8,
+      "image": "/health.jpg",
+      "parentObj": {
+        "routeCategory": "pharmacy",
+        "id": 4
+      },
+      "menu": [
+        {
+          "image": "/health.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Cough Syrup",
+          "description": "For cough relief.",
+          "fullDescription": "Ibuprofen is a non-prescription pain reliever and fever reducer. It works by blocking the production of prostaglandins, chemicals in the body that cause pain and inflammation. Ibuprofen is commonly used to treat headaches, menstrual cramps, toothaches, and muscle aches. It can also be used to reduce fever and inflammation from conditions such as arthritis and the flu. Ibuprofen is available in various forms, including tablets, capsules, and liquid gels. It is important to follow the dosage instructions carefully and not exceed the recommended dose. If you have any questions or concerns about taking ibuprofen, please consult with your healthcare provider.",
+
+          "price": 15.99,
+          "discountPrice": 15.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pharmacy",
+            "id": 4
+          }
+        },
+        {
+          "image": "/health.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Pain Relief Cream",
+          "description": "For localized pain relief.",
+          "fullDescription": "Ibuprofen is a non-prescription pain reliever and fever reducer. It works by blocking the production of prostaglandins, chemicals in the body that cause pain and inflammation. Ibuprofen is commonly used to treat headaches, menstrual cramps, toothaches, and muscle aches. It can also be used to reduce fever and inflammation from conditions such as arthritis and the flu. Ibuprofen is available in various forms, including tablets, capsules, and liquid gels. It is important to follow the dosage instructions carefully and not exceed the recommended dose. If you have any questions or concerns about taking ibuprofen, please consult with your healthcare provider.",
+
+          "price": 12.99,
+          "discountPrice": 12.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pharmacy",
+            "id": 4
+          }
+        },
+        {
+          "image": "/health.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Band-Aids",
+          "description": "For minor cuts and wounds.",
+          "fullDescription": "Ibuprofen is a non-prescription pain reliever and fever reducer. It works by blocking the production of prostaglandins, chemicals in the body that cause pain and inflammation. Ibuprofen is commonly used to treat headaches, menstrual cramps, toothaches, and muscle aches. It can also be used to reduce fever and inflammation from conditions such as arthritis and the flu. Ibuprofen is available in various forms, including tablets, capsules, and liquid gels. It is important to follow the dosage instructions carefully and not exceed the recommended dose. If you have any questions or concerns about taking ibuprofen, please consult with your healthcare provider.",
+
+          "price": 11.99,
+          "discountPrice": 11.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pharmacy",
+            "id": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "PharmaPlus",
+      "category": "Pharmacy",
+      "routeCategory": "pharmacy",
+
+      "location": "456 Oak St",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.4,
+      "image": "/health.jpg",
+
+      "parentObj": {
+        "routeCategory": "pharmacy",
+        "id": 5
+      },
+
+      "menu": [
+        {
+          "image": "/health.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Cold Medicine",
+          "description": "For cold relief.",
+          "fullDescription": "Ibuprofen is a non-prescription pain reliever and fever reducer. It works by blocking the production of prostaglandins, chemicals in the body that cause pain and inflammation. Ibuprofen is commonly used to treat headaches, menstrual cramps, toothaches, and muscle aches. It can also be used to reduce fever and inflammation from conditions such as arthritis and the flu. Ibuprofen is available in various forms, including tablets, capsules, and liquid gels. It is important to follow the dosage instructions carefully and not exceed the recommended dose. If you have any questions or concerns about taking ibuprofen, please consult with your healthcare provider.",
+
+          "price": 3.99,
+          "discountPrice": 3.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pharmacy",
+            "id": 5
+          }
+        },
+        {
+          "image": "/health.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Allergy Tablets",
+          "description": "For allergy relief.",
+          "fullDescription": "Ibuprofen is a non-prescription pain reliever and fever reducer. It works by blocking the production of prostaglandins, chemicals in the body that cause pain and inflammation. Ibuprofen is commonly used to treat headaches, menstrual cramps, toothaches, and muscle aches. It can also be used to reduce fever and inflammation from conditions such as arthritis and the flu. Ibuprofen is available in various forms, including tablets, capsules, and liquid gels. It is important to follow the dosage instructions carefully and not exceed the recommended dose. If you have any questions or concerns about taking ibuprofen, please consult with your healthcare provider.",
+
+          "price": 6.99,
+          "discountPrice": 6.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pharmacy",
+            "id": 5
+          }
+        },
+        {
+          "image": "/health.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "First Aid Kit",
+          "description": "For emergency situations.",
+          "fullDescription": "Ibuprofen is a non-prescription pain reliever and fever reducer. It works by blocking the production of prostaglandins, chemicals in the body that cause pain and inflammation. Ibuprofen is commonly used to treat headaches, menstrual cramps, toothaches, and muscle aches. It can also be used to reduce fever and inflammation from conditions such as arthritis and the flu. Ibuprofen is available in various forms, including tablets, capsules, and liquid gels. It is important to follow the dosage instructions carefully and not exceed the recommended dose. If you have any questions or concerns about taking ibuprofen, please consult with your healthcare provider.",
+
+          "price": 7.99,
+          "discountPrice": 7.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "pharmacy",
+            "id": 5
+          }
+        }
+      ]
+    }
+  ]
+}

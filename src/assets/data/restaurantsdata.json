@@ -1,0 +1,711 @@
+{
+  "onlineRestaurants": [
+    {
+      "id": 1,
+      "name": "Pizza Palace",
+      "category": "Pizza",
+      "routeCategory": "restaurant",
+      "deliveryTime": "30-45 minutes",
+      "rating": 4.5,
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+      "parentObj": {
+        "routeCategory": "restaurant",
+        "id": 1
+      },
+      "menu": [
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+
+          "name": "Pepperoni Pizza (large)",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+          "price": 12.99,
+          "discountPrice": 10.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 1
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+
+          "name": "Margherita Pizza",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 10.99,
+          "discountPrice": 10.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 1
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+ 
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+
+          "name": "Vegetarian Pizza",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 11.99,
+          "discountPrice": 9.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Burger Joint",
+      "category": "Burgers",
+      "routeCategory": "restaurant",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.2,
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+
+      "parentObj": {
+        "routeCategory": "restaurant",
+        "id": 2
+      },
+      "menu": [
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+
+          "name": "Burger joint Pepperoni Pizza(large)",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 10.99,
+          "discountPrice": 10.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 2
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+
+          "name": "BBQ Bacon Burger",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 9.99,
+          "discountPrice": 7.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 2
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+
+          "name": "Veggie Burger",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 7.99,
+          "discountPrice": 7.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Piz Joint",
+      "category": "Burgers",
+      "routeCategory": "restaurant",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.2,
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+      "parentObj": {
+        "routeCategory": "restaurant",
+        "id": 3
+      },
+      "menu": [
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+
+          "name": "Piz joint Pepperoni Pizza (large)",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 13.99,
+          "discountPrice": 10.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 3
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+
+          "name": "BBQ Bacon Burger",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 9.99,
+          "discountPrice": 9.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 3
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Veggie Burger",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 7.99,
+          "discountPrice": 7.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 3
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "name": "mcDonalds",
+      "category": "Burgers",
+      "routeCategory": "restaurant",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.2,
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+      "parentObj": {
+        "routeCategory": "restaurant",
+        "id": 4
+      },
+      "menu": [
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+
+          "name": "mc donalds Pepperoni Pizza",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 13.99,
+          "discountPrice": 10.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 4
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "BBQ Bacon Burger",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 9.99,
+          "discountPrice": 7.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 4
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "mc donalds Pepperoni Pizza(medium)",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 5.99,
+          "discountPrice": 5.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 4
+          }
+        }
+      ]
+    }
+  ],
+  "localRestaurants": [
+    {
+      "id": 5,
+      "name": "Mom's Kitchen",
+      "category": "Homemade",
+      "location": "123 Main St",
+      "deliveryTime": "20-30 minutes",
+      "routeCategory": "restaurant",
+      "rating": 4.8,
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+      "parentObj": {
+        "routeCategory": "restaurant",
+        "id": 5
+      },
+      "menu": [
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Lasagna",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 15.99,
+          "discountPrice": 13.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 5
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Chicken Alfredo",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 12.99,
+          "discountPrice": 10.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 5
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Spaghetti Bolognese",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 11.99,
+          "discountPrice": 10.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Taco Trucksssss",
+      "category": "Mexican",
+      "routeCategory": "restaurant",
+      "location": "456 Oak St",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.4,
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+      "parentObj": {
+        "routeCategory": "restaurant",
+        "id": 6
+      },
+      "menu": [
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Beef Tacos",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 3.99,
+          "discountPrice": 3.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 6
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Chicken Quesadilla",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 6.99,
+          "discountPrice": 6.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 6
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Veggie Burrito",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 7.99,
+          "discountPrice": 7.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 6
+          }
+        },
+
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Veggie Burritoo",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 7.99,
+          "discountPrice": 6.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 6
+          }
+        },
+
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": " Burrito",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 7.99,
+          "discountPrice": 7.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Max Truck",
+      "category": "Mexican",
+      "routeCategory": "restaurant",
+      "location": "456 Oak St",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.4,
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+      "parentObj": {
+        "routeCategory": "restaurant",
+        "id": 7
+      },
+      "menu": [
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Beef Tacos",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 3.99,
+          "discountPrice": 3.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 7
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Chicken Quesadilla",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 6.99,
+          "discountPrice": 5.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 7
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Veggie Burrito",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 7.99,
+          "discountPrice": 6.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Bob Truck",
+      "category": "Nigerian",
+      "routeCategory": "restaurant",
+      "location": "456 Oak St",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.4,
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+      "parentObj": {
+        "routeCategory": "restaurant",
+        "id": 8
+      },
+      "menu": [
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Beef Tacos",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 3.99,
+          "discountPrice": 3.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 8
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Chicken Quesadilla",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 6.99,
+          "discountPrice": 6.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 8
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Veggie Burrito",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 7.99,
+          "discountPrice": 6.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Taco Truck",
+      "category": "Mexican",
+      "routeCategory": "restaurant",
+      "location": "456 Oak St",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.4,
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+      "parentObj": {
+        "routeCategory": "restaurant",
+        "id": 9
+      },
+      "menu": [
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Beef Tacos",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 3.99,
+          "discountPrice": 3.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 9
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Chicken Quesadilla",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 6.99,
+          "discountPrice": 5.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 9
+          }
+        },
+        {
+          "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant4.jpeg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Veggie Burrito",
+          "description": "Fresh vegetarian pizza.",
+          "fullDescription": "Our signature pizza is made with a hand-tossed dough, topped with a tangy tomato sauce, and loaded with mozzarella cheese and pepperoni. We use only the freshest ingredients to ensure that every bite is as delicious as the last. This large pizza is perfect for sharing with friends and family, or for a satisfying meal on your own. Try it with one of our delicious dipping sauces for an extra kick of flavor!",
+
+          "price": 7.99,
+          "discountPrice": 7.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "restaurant",
+            "id": 9
+          }
+        }
+      ]
+    }
+  ]
+}

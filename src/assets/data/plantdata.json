@@ -1,0 +1,447 @@
+{
+  "onlinePlants": [
+    {
+      "id": 1,
+      "name": "GreenThumb Online",
+      "category": "Plants",
+      "routeCategory": "plant",
+      "deliveryTime": "30-45 minutes",
+      "rating": 4.5,
+      "image": "/plant.jpg",
+      "parentObj": {
+        "routeCategory": "plant",
+        "id": 1
+      },
+      "menu": [
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Fiddle Leaf Fig",
+          "description": "Tall indoor plant with large leaves",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 49.99,
+          "discountPrice": 45.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 1
+          }
+        },
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Snake Plant",
+          "description": "Low-maintenance air purifying plant",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 29.99,
+          "discountPrice": 29.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 1
+          }
+        },
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Monstera Deliciosa",
+          "description": "Tropical plant with unique split leaves",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 39.99,
+          "discountPrice": 37.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "BotanicExpress",
+      "category": "Plants",
+      "routeCategory": "plant",
+
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.4,
+      "image": "/plant.jpg",
+      "parentObj": {
+        "routeCategory": "plant",
+        "id": 2
+      },
+      "menu": [
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Succulent Mix",
+          "description": "Assorted small succulents",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 19.99,
+          "discountPrice": 19.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 2
+          }
+        },
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Lavender Plant",
+          "description": "Fragrant lavender plant",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 24.99,
+          "discountPrice": 24.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 2
+          }
+        },
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Bamboo Palm",
+          "description": "Indoor palm plant",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 34.99,
+          "discountPrice": 32.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Plantify",
+      "category": "Plants",
+      "routeCategory": "plant",
+
+      "deliveryTime": "25-35 minutes",
+      "rating": 4.6,
+      "image": "/plant.jpg",
+      "parentObj": {
+        "routeCategory": "plant",
+        "id": 3
+      },
+      "menu": [
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Peace Lily",
+          "description": "Popular indoor flowering plant",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 29.99,
+          "discountPrice": 29.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 3
+          }
+        },
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Spider Plant",
+          "description": "Easy-care hanging plant",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 19.99,
+          "discountPrice": 19.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 3
+          }
+        },
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Rubber Plant",
+          "description": "Large glossy leaves indoor plant",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 39.99,
+          "discountPrice": 34.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 3
+          }
+        }
+      ]
+    }
+  ],
+  "localPlants": [
+    {
+      "id": 4,
+      "name": "Local Plant Shop 1",
+      "category": "Plants",
+      "routeCategory": "plant",
+
+      "location": "123 Main St",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.8,
+      "image": "/plant.jpg",
+      "parentObj": {
+        "routeCategory": "plant",
+        "id": 4
+      },
+      "menu": [
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Philodendron",
+          "description": "Heart-shaped trailing plant",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 24.99,
+          "discountPrice": 24.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 4
+          }
+        },
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Pothos",
+          "description": "Easy-care trailing vine plant",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 19.99,
+          "discountPrice": 19.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 4
+          }
+        },
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Bird of Paradise",
+          "description": "Tropical plant with vibrant flowers",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 49.99,
+          "discountPrice": 39.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Local Plant Shop 2",
+      "category": "Plants",
+      "routeCategory": "plant",
+
+      "location": "456 Oak St",
+      "deliveryTime": "15-25 minutes",
+      "rating": 4.6,
+      "image": "/plant.jpg",
+
+      "parentObj": {
+        "routeCategory": "plant",
+        "id": 5
+      },
+      "menu": [
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Aloe Vera",
+          "description": "Succulent with medicinal properties",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 14.99,
+          "discountPrice": 14.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 5
+          }
+        },
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "ZZ Plant",
+          "description": "Low-light tolerant plant",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 29.99,
+          "discountPrice": 29.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 5
+          }
+        },
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Money Tree",
+          "description": "Feng Shui plant believed to bring wealth",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 39.99,
+          "discountPrice": 37.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "GreenHaven Nursery",
+      "category": "Plants",
+      "routeCategory": "plant",
+
+      "location": "789 Elm St",
+      "deliveryTime": "25-35 minutes",
+      "rating": 4.9,
+      "image": "/plant.jpg",
+      "parentObj": {
+        "routeCategory": "plant",
+        "id": 6
+      },
+      "menu": [
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Schefflera",
+          "description": "Umbrella tree with glossy leaves",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 29.99,
+          "discountPrice": 29.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 6
+          }
+        },
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Jade Plant",
+          "description": "Succulent with thick fleshy leaves",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 19.99,
+          "discountPrice": 19.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 6
+          }
+        },
+        {
+          "image": "/plant.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Ficus Tree",
+          "description": "Tall indoor tree with narrow leaves",
+          "fullDescription": "Our garden trowel is a versatile hand tool that is perfect for a variety of gardening tasks. It features a sturdy, stainless steel blade that is resistant to rust and corrosion, and a comfortable, ergonomic handle that makes it easy to grip and use. The trowel is ideal for digging small holes, transplanting seedlings, and breaking up soil. It's a must-have tool for any gardener or landscaper.",
+
+          "price": 49.99,
+          "discountPrice": 49.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "plant",
+            "id": 6
+          }
+        }
+      ]
+    }
+  ]
+}

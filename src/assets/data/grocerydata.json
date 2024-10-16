@@ -1,0 +1,441 @@
+{
+  "onlineGroceries": [
+    {
+      "id": 1,
+      "name": "GreenGrocers Online",
+      "category": "Groceries",
+      "routeCategory": "grocery",
+      "deliveryTime": "30-45 minutes",
+      "rating": 4.5,
+      "image": "/grocery.jpg",
+      "parentObj": {
+        "routeCategory": "grocery",
+        "id": 1
+      },
+      "menu": [
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Organic Fruits Basket",
+          "description": "Assorted fresh organic fruits",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+          "price": 29.99,
+          "discountPrice": 25.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 1
+          }
+        },
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Vegetable Bundle",
+          "description": "Variety of farm-fresh vegetables",
+          "price": 24.99,
+          "discountPrice": 22.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 1
+          }
+        },
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Organic Eggs",
+          "description": "Free-range organic eggs",
+          "price": 7.99,
+          "discountPrice": 7.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "FreshMart Express",
+      "category": "Groceries",
+      "routeCategory": "grocery",
+
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.4,
+      "image": "/grocery.jpg",
+      "parentObj": {
+        "routeCategory": "grocery",
+        "id": 2
+      },
+      "menu": [
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Fresh Salad Mix",
+          "description": "Prepared mix of fresh salad greens",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+
+          "price": 14.99,
+          "discountPrice": 14.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 2
+          }
+        },
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Grains & Pulses Pack",
+          "description": "Assorted grains and pulses pack",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+
+          "price": 19.99,
+          "discountPrice": 19.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 2
+          }
+        },
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Dairy Essentials",
+          "description": "Essential dairy products bundle",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+
+          "price": 12.99,
+          "discountPrice": 11.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "OrganicLiving",
+      "category": "Groceries",
+      "routeCategory": "grocery",
+
+      "deliveryTime": "25-35 minutes",
+      "rating": 4.6,
+      "image": "/grocery.jpg",
+      "parentObj": {
+        "routeCategory": "grocery",
+        "id": 3
+      },
+      "menu": [
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Organic Whole Wheat Bread",
+          "description": "Healthy whole wheat bread loaf",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+
+          "price": 4.99,
+          "discountPrice": 4.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 3
+          }
+        },
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Almond Milk",
+          "description": "Pure almond milk",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+
+          "price": 3.99,
+          "discountPrice": 3.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 3
+          }
+        },
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Organic Chicken",
+          "description": "Fresh organic chicken breast",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+
+          "price": 9.99,
+          "discountPrice": 9.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 3
+          }
+        }
+      ]
+    }
+  ],
+  "localGroceries": [
+    {
+      "id": 4,
+      "name": "Local Market 1",
+      "category": "Groceries",
+      "routeCategory": "grocery",
+
+      "location": "123 Main St",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.8,
+      "image": "/grocery.jpg",
+
+      "parentObj": {
+        "routeCategory": "grocery",
+        "id": 4
+      },
+      "menu": [
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Local Honey",
+          "description": "Pure honey sourced locally",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+
+          "price": 9.99,
+          "discountPrice": 9.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 4
+          }
+        },
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Freshly Baked Bread",
+          "description": "Homemade freshly baked bread",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+
+          "price": 5.99,
+          "discountPrice": 5.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 4
+          }
+        },
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Farm Eggs",
+          "description": "Farm-fresh eggs",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+
+          "price": 6.99,
+          "discountPrice": 6.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Local Market 2",
+      "category": "Groceries",
+      "routeCategory": "grocery",
+      "location": "456 Oak St",
+      "deliveryTime": "15-25 minutes",
+      "rating": 4.6,
+      "image": "/grocery.jpg",
+      "parentObj": {
+        "routeCategory": "grocery",
+        "id": 5
+      },
+      "menu": [
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Farm Cheese Assortment",
+          "description": "Assorted farm cheese pack",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+
+          "price": 11.99,
+          "discountPrice": 11.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 5
+          }
+        },
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Local Organic Greens",
+          "description": "Freshly harvested organic greens",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+
+          "price": 8.99,
+          "discountPrice": 8.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 5
+          }
+        },
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Local Sourdough Loaf",
+          "description": "Sourdough bread made locally",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+
+          "price": 7.99,
+          "discountPrice": 7.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Fresh Farms",
+      "category": "Groceries",
+      "routeCategory": "grocery",
+
+      "location": "789 Elm St",
+      "deliveryTime": "25-35 minutes",
+      "rating": 4.9,
+      "image": "/grocery.jpg",
+      "parentObj": {
+        "routeCategory": "grocery",
+        "id": 6
+      },
+      "menu": [
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Fresh Organic Milk",
+          "description": "Organic cow milk",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+
+          "price": 3.99,
+          "discountPrice": 3.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 6
+          }
+        },
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Locally Grown Apples",
+          "description": "Freshly picked apples",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+
+          "price": 5.99,
+          "discountPrice": 5.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 6
+          }
+        },
+        {
+          "image": "/grocery.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Local Jam Selection",
+          "description": "Assorted local jam flavors",
+          "fullDescription": "These organic avocados are hand-picked for optimal ripeness and freshness. They're rich in healthy fats, fiber, and vitamins, making them a nutritious and delicious addition to any meal. Use them in salads, sandwiches, or as a healthy snack on their own. Each bag contains 4-5 avocados.",
+
+          "price": 7.99,
+          "discountPrice": 7.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "grocery",
+            "id": 6
+          }
+        }
+      ]
+    }
+  ]
+}

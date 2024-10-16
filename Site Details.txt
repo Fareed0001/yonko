@@ -1,0 +1,7 @@
+BRAND COLORS FROM LOGO
+black: #271616
+dark brown: #735d5a
+light brown:#ce8d76
+green: #6cab87
+blue: #4c7b95
+orange: #d3674e;

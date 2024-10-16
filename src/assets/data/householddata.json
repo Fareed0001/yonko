@@ -1,0 +1,300 @@
+{
+  "onlineHouseholdSupplies": [
+    {
+      "id": 1,
+      "name": "Home Essentials",
+      "category": "Household Supplies",
+      "routeCategory": "household",
+      "deliveryTime": "30-45 minutes",
+      "rating": 4.5,
+      "image": "/household.jpg",
+      "parentObj": {
+        "routeCategory": "household",
+        "id": 1
+      },
+      "menu": [
+        {
+          "image": "/household.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Toilet Paper",
+          "description": "Soft and absorbent",
+          "fullDescription": "Our all-purpose cleaner is a versatile cleaning solution that can be used on a variety of surfaces, including countertops, sinks, and floors. It's formulated with powerful cleaning agents that quickly break down dirt, grime, and stains, leaving your surfaces clean and sanitized. The non-toxic formula is safe to use around children and pets, and it leaves a fresh, clean scent behind. Use it to clean your kitchen, bathroom, or any other room in your home for a sparkling clean finish.",
+
+          "price": 8.99,
+          "discountPrice": 8.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "household",
+            "id": 1
+          }
+        },
+        {
+          "image": "/household.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Paper Towels",
+          "description": "Strong and durable",
+          "fullDescription": "Our all-purpose cleaner is a versatile cleaning solution that can be used on a variety of surfaces, including countertops, sinks, and floors. It's formulated with powerful cleaning agents that quickly break down dirt, grime, and stains, leaving your surfaces clean and sanitized. The non-toxic formula is safe to use around children and pets, and it leaves a fresh, clean scent behind. Use it to clean your kitchen, bathroom, or any other room in your home for a sparkling clean finish.",
+
+          "price": 10.99,
+          "discountPrice": 8.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "household",
+            "id": 1
+          }
+        },
+        {
+          "image": "/household.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Laundry Detergent",
+          "description": "Fresh scent",
+          "fullDescription": "Our all-purpose cleaner is a versatile cleaning solution that can be used on a variety of surfaces, including countertops, sinks, and floors. It's formulated with powerful cleaning agents that quickly break down dirt, grime, and stains, leaving your surfaces clean and sanitized. The non-toxic formula is safe to use around children and pets, and it leaves a fresh, clean scent behind. Use it to clean your kitchen, bathroom, or any other room in your home for a sparkling clean finish.",
+
+          "price": 12.49,
+          "discountPrice": 12.49,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "household",
+            "id": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "CleanHome",
+      "category": "Household Supplies",
+      "routeCategory": "household",
+
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.2,
+      "image": "/household.jpg",
+
+      "parentObj": {
+        "routeCategory": "household",
+        "id": 2
+      },
+      "menu": [
+        {
+          "image": "/household.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Dish Soap",
+          "description": "Gentle on hands",
+          "fullDescription": "Our all-purpose cleaner is a versatile cleaning solution that can be used on a variety of surfaces, including countertops, sinks, and floors. It's formulated with powerful cleaning agents that quickly break down dirt, grime, and stains, leaving your surfaces clean and sanitized. The non-toxic formula is safe to use around children and pets, and it leaves a fresh, clean scent behind. Use it to clean your kitchen, bathroom, or any other room in your home for a sparkling clean finish.",
+
+          "price": 5.99,
+          "discountPrice": 5.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "household",
+            "id": 2
+          }
+        },
+        {
+          "image": "/household.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "All-Purpose Cleaner",
+          "description": "Versatile cleaning solution",
+          "fullDescription": "Our all-purpose cleaner is a versatile cleaning solution that can be used on a variety of surfaces, including countertops, sinks, and floors. It's formulated with powerful cleaning agents that quickly break down dirt, grime, and stains, leaving your surfaces clean and sanitized. The non-toxic formula is safe to use around children and pets, and it leaves a fresh, clean scent behind. Use it to clean your kitchen, bathroom, or any other room in your home for a sparkling clean finish.",
+
+          "price": 7.99,
+          "discountPrice": 7.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "household",
+            "id": 2
+          }
+        },
+        {
+          "image": "/household.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Bathroom Cleaner",
+          "description": "Removes tough stains",
+          "fullDescription": "Our all-purpose cleaner is a versatile cleaning solution that can be used on a variety of surfaces, including countertops, sinks, and floors. It's formulated with powerful cleaning agents that quickly break down dirt, grime, and stains, leaving your surfaces clean and sanitized. The non-toxic formula is safe to use around children and pets, and it leaves a fresh, clean scent behind. Use it to clean your kitchen, bathroom, or any other room in your home for a sparkling clean finish.",
+
+          "price": 6.49,
+          "discountPrice": 6.49,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "household",
+            "id": 2
+          }
+        }
+      ]
+    }
+  ],
+  "localHouseholdSupplies": [
+    {
+      "id": 3,
+      "name": "Neighborhood Mart",
+      "category": "Household Supplies",
+      "routeCategory": "household",
+
+      "location": "123 Main St",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.8,
+      "image": "/household.jpg",
+      "parentObj": {
+        "routeCategory": "household",
+        "id": 3
+      },
+      "menu": [
+        {
+          "image": "/household.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Trash Bags",
+          "description": "Strong and durable",
+          "fullDescription": "Our all-purpose cleaner is a versatile cleaning solution that can be used on a variety of surfaces, including countertops, sinks, and floors. It's formulated with powerful cleaning agents that quickly break down dirt, grime, and stains, leaving your surfaces clean and sanitized. The non-toxic formula is safe to use around children and pets, and it leaves a fresh, clean scent behind. Use it to clean your kitchen, bathroom, or any other room in your home for a sparkling clean finish.",
+
+          "price": 9.99,
+          "discountPrice": 8.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "household",
+            "id": 3
+          }
+        },
+        {
+          "image": "/household.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Sponges",
+          "description": "For scrubbing",
+          "fullDescription": "Our all-purpose cleaner is a versatile cleaning solution that can be used on a variety of surfaces, including countertops, sinks, and floors. It's formulated with powerful cleaning agents that quickly break down dirt, grime, and stains, leaving your surfaces clean and sanitized. The non-toxic formula is safe to use around children and pets, and it leaves a fresh, clean scent behind. Use it to clean your kitchen, bathroom, or any other room in your home for a sparkling clean finish.",
+
+          "price": 3.49,
+          "discountPrice": 3.49,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "household",
+            "id": 3
+          }
+        },
+        {
+          "image": "/household.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Air Freshener",
+          "description": "Eliminates odors",
+          "fullDescription": "Our all-purpose cleaner is a versatile cleaning solution that can be used on a variety of surfaces, including countertops, sinks, and floors. It's formulated with powerful cleaning agents that quickly break down dirt, grime, and stains, leaving your surfaces clean and sanitized. The non-toxic formula is safe to use around children and pets, and it leaves a fresh, clean scent behind. Use it to clean your kitchen, bathroom, or any other room in your home for a sparkling clean finish.",
+
+          "price": 4.99,
+          "discountPrice": 4.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "household",
+            "id": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Local Supplies",
+      "category": "Household Supplies",
+      "routeCategory": "household",
+
+      "location": "456 Oak St",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.4,
+      "image": "/household.jpg",
+      "parentObj": {
+        "routeCategory": "household",
+        "id": 4
+      },
+      "menu": [
+        {
+          "image": "/household.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Bleach",
+          "description": "Whitens and disinfects",
+          "fullDescription": "Our all-purpose cleaner is a versatile cleaning solution that can be used on a variety of surfaces, including countertops, sinks, and floors. It's formulated with powerful cleaning agents that quickly break down dirt, grime, and stains, leaving your surfaces clean and sanitized. The non-toxic formula is safe to use around children and pets, and it leaves a fresh, clean scent behind. Use it to clean your kitchen, bathroom, or any other room in your home for a sparkling clean finish.",
+
+          "price": 6.99,
+          "discountPrice": 6.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "household",
+            "id": 4
+          }
+        },
+        {
+          "image": "/household.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Glass Cleaner",
+          "description": "Streak-free shine",
+          "fullDescription": "Our all-purpose cleaner is a versatile cleaning solution that can be used on a variety of surfaces, including countertops, sinks, and floors. It's formulated with powerful cleaning agents that quickly break down dirt, grime, and stains, leaving your surfaces clean and sanitized. The non-toxic formula is safe to use around children and pets, and it leaves a fresh, clean scent behind. Use it to clean your kitchen, bathroom, or any other room in your home for a sparkling clean finish.",
+
+          "price": 5.49,
+          "discountPrice": 4.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "household",
+            "id": 4
+          }
+        },
+        {
+          "image": "/household.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Floor Cleaner",
+          "description": "Cleans and deodorizes",
+          "fullDescription": "Our all-purpose cleaner is a versatile cleaning solution that can be used on a variety of surfaces, including countertops, sinks, and floors. It's formulated with powerful cleaning agents that quickly break down dirt, grime, and stains, leaving your surfaces clean and sanitized. The non-toxic formula is safe to use around children and pets, and it leaves a fresh, clean scent behind. Use it to clean your kitchen, bathroom, or any other room in your home for a sparkling clean finish.",
+
+          "price": 8.99,
+          "discountPrice": 8.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "household",
+            "id": 4
+          }
+        }
+      ]
+    }
+  ]
+}

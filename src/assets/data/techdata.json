@@ -1,0 +1,484 @@
+{
+  "onlineTechSupplies": [
+    {
+      "id": 1,
+      "name": "TechZone Online",
+      "category": "Tech Supplies",
+      "routeCategory": "tech",
+      "deliveryTime": "30-45 minutes",
+      "rating": 4.5,
+      "image": "/tech.jpg",
+      "parentObj": {
+        "routeCategory": "tech",
+        "id": 1
+      },
+      "menu": [
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Samsung Laptop",
+          "description": "High-performance laptop",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 999.99,
+          "discountPrice": 999.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 1
+          }
+        },
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Smartphone",
+          "description": "Latest smartphone model",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 699.99,
+          "discountPrice": 670.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 1
+          }
+        },
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Wireless Headphones",
+          "description": "Premium wireless headphones",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 199.99,
+          "discountPrice": 199.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "TechHub Express",
+      "category": "Tech Supplies",
+      "routeCategory": "tech",
+
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.4,
+      "image": "/tech.jpg",
+      "parentObj": {
+        "routeCategory": "tech",
+        "id": 2
+      },
+      "menu": [
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Smartwatch",
+          "description": "Fitness tracking smartwatch",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 149.99,
+          "discountPrice": 145.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 2
+          }
+        },
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Apple ipad",
+          "description": "Lightweight tablet for everyday use",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 299.99,
+          "discountPrice": 299.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 2
+          }
+        },
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Gaming Mouse",
+          "description": "High-precision gaming mouse",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 79.99,
+          "discountPrice": 79.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 2
+          }
+        },
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Apple Iphone 15",
+          "description": "High-precision gaming mouse",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 79.99,
+          "discountPrice": 77.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 2
+          }
+        },
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Apple Iphone 13",
+          "description": "High-precision gaming mouse",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 779.99,
+          "discountPrice": 779.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "TechSpot Express",
+      "category": "Tech Supplies",
+      "routeCategory": "tech",
+
+      "deliveryTime": "45-60 minutes",
+      "rating": 4.7,
+      "image": "/tech.jpg",
+      "parentObj": {
+        "routeCategory": "tech",
+        "id": 3
+      },
+      "menu": [
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Lenovo laptop",
+          "description": "Powerful desktop computer",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 1299.99,
+          "discountPrice": 1299.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 3
+          }
+        },
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Apple iphone x",
+          "description": "Wireless printer with scanner",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 249.99,
+          "discountPrice": 249.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 3
+          }
+        },
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "External Hard Drive",
+          "description": "Portable storage solution",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 99.99,
+          "discountPrice": 99.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 3
+          }
+        }
+      ]
+    }
+  ],
+  "localTechSupplies": [
+    {
+      "id": 4,
+      "name": "Local Tech Store 1",
+      "category": "Tech Supplies",
+      "routeCategory": "tech",
+
+      "location": "123 Main St",
+      "deliveryTime": "20-30 minutes",
+      "rating": 4.8,
+      "image": "/tech.jpg",
+      "parentObj": {
+        "routeCategory": "tech",
+        "id": 4
+      },
+      "menu": [
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Monitor",
+          "description": "High-resolution computer monitor",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 399.99,
+          "discountPrice": 389.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 4
+          }
+        },
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Webcam",
+          "description": "HD webcam for video calls",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 79.99,
+          "discountPrice": 79.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 4
+          }
+        },
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Wi-Fi Router",
+          "description": "Dual-band wireless router",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 129.99,
+          "discountPrice": 129.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Local Tech Store 2",
+      "category": "Tech Supplies",
+      "routeCategory": "tech",
+
+      "location": "456 Oak St",
+      "deliveryTime": "15-25 minutes",
+      "rating": 4.6,
+      "image": "/tech.jpg",
+      "parentObj": {
+        "routeCategory": "tech",
+        "id": 5
+      },
+      "menu": [
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Graphics Card",
+          "description": "Graphics card for gaming PCs",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 499.99,
+          "discountPrice": 499.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 5
+          }
+        },
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "External SSD",
+          "description": "High-speed external SSD drive",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 149.99,
+          "discountPrice": 149.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 5
+          }
+        },
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Bluetooth Speaker",
+          "description": "Portable Bluetooth speaker",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 69.99,
+          "discountPrice": 67.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Local Tech Store 3",
+      "category": "Tech Supplies",
+      "routeCategory": "tech",
+
+      "location": "789 Elm St",
+      "deliveryTime": "25-35 minutes",
+      "rating": 4.9,
+      "image": "/tech.jpg",
+      "parentObj": {
+        "routeCategory": "tech",
+        "id": 6
+      },
+      "menu": [
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Keyboard",
+          "description": "Mechanical gaming keyboard",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 89.99,
+          "discountPrice": 89.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 6
+          }
+        },
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "VR Headset",
+          "description": "Virtual reality headset",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 299.99,
+          "discountPrice": 299.99,
+          "discount": false,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 6
+          }
+        },
+        {
+          "image": "/tech.jpg",
+          "imageGallery": [
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
+            "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+          ],
+          "name": "Smart Speaker",
+          "description": "Voice-controlled smart speaker",
+          "fullDescription": "Our noise-canceling headphones are designed to provide you with a high-quality listening experience, no matter where you are. They feature advanced noise-canceling technology that blocks out background noise, so you can focus on your music, podcasts, or audiobooks. The headphones are comfortable to wear, with soft ear cups and a lightweight design. They also have a long battery life, so you can listen to your favorite tunes all day without needing to recharge. With crystal-clear sound and a sleek, modern design, our noise-canceling headphones are a great choice for anyone who wants to enjoy their music without distractions.",
+
+          "price": 129.99,
+          "discountPrice": 120.99,
+          "discount": true,
+          "parentObj": {
+            "routeCategory": "tech",
+            "id": 6
+          }
+        }
+      ]
+    }
+  ]
+}
